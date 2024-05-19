@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/trainingCenters';
+const API_URL = 'https://backend-traini8-sameer.onrender.com/api/trainingCenters';
 
 export const createTrainingCenter = async (centerData) => {
     return await axios.post(API_URL, centerData);
